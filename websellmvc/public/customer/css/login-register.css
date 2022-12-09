@@ -1,0 +1,242 @@
+
+.model-register-login, .model-comfirm-email{
+    display: none;
+    height: 100%;
+    width: 100%;
+    background: rgba(128, 128, 128, 0.507);
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+.model-comfirm-email .box-comfirm a{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #317dbe;
+}
+
+.model-comfirm-email .box-comfirm input::-webkit-outer-spin-button,
+.model-comfirm-email .box-comfirm input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+.model-comfirm-email .box-comfirm input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.model-comfirm-email .box-comfirm{
+    width: 380px;
+    height: auto;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.model-comfirm-email h3{
+    margin-top: 15px;
+    text-align: center;
+    color: #317dbe;
+}
+
+.model-comfirm-email .informing{
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.model-comfirm-email .groung-input{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.model-comfirm-email input{
+    width: 100%;
+    padding: 8px 0px;
+    outline: none;
+    border: 1px solid #1a94ff;
+    text-align: center;
+}
+.model-comfirm-email button{
+    margin-top: 20px;
+    width: 100%;
+    padding: 8px 0px;
+    border: none;
+    background: #1a94ff;
+    color: #fff;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+}
+.model-register-login .form-box{
+    width: 380px;
+    height: 560px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.model-register-login .button-box {
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #1a94ff3a;
+    border-radius: 30px;
+}
+.model-register-login .toggle-btn{
+    padding: 10px 23px;
+    cursor: pointer;
+    background:  transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    color: #000;
+}
+
+#btn-login-box{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #1a94ff, #317dbe);
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.toggle-btn.active-btn{
+    color: #fff;
+}
+
+.model-register-login .social-icons{
+    margin: 30px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.model-register-login .social-icons .fa-facebook-f,.model-register-login .social-icons .fa-google-plus-g{
+    font-size: 25px;
+    color: #1a94ff;
+    
+}
+
+.model-register-login .social-icons>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #1a94ff;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.model-register-login .social-icons>div:hover {
+    box-shadow: 0px 0px 3px 0px #1a94ff;
+}
+
+.model-register-login .form-group {
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition:  .5s;
+    margin-left: 15px;
+}
+
+.model-register-login .input-field{
+    width: 100%;
+}
+
+.input-field-password{
+    width: 100%;
+    position: relative;
+}
+
+.model-register-login .input-field input,.model-register-login .input-field-password input{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #1a94ff;
+    outline: none;
+    background: transparent;
+}
+
+.model-register-login .submit-btn {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #1a94ff, #317dbe);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    margin-top: 15px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.model-register-login .checkbox{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+}
+
+.model-register-login .checkbox label{
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.validate{
+    color: red;
+    font-size: 14px;
+}
+
+#login-custoner{
+    left: 40px;
+}
+
+#register-custoner{
+    left: 450px;
+}
+
+.model-register-login .input-field-password .fa-eye{
+    position: absolute;
+    right: 15px;
+    top: 37%;
+    transform: translateY(-25%);
+    cursor: pointer;
+}
+.model-register-login .input-field-password .eye-show-login{
+    color: #ccc;
+}
+.model-register-login .input-field-password .eye-show-register{
+    color: #ccc;
+}
+.model-register-login .input-field-password .eye-show-re-register{
+    color: #ccc;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+
+
+
+}
+

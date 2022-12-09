@@ -1,0 +1,61 @@
+
+.loader{
+   top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100vw;
+    height: 100%;
+    position: fixed;
+    
+    background:  #fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+   width: 25px;
+   height: 25px;
+   border:none;
+   border-radius: 50%;
+   position: absolute;
+   animation: loader 2s ease infinite;
+}
+
+@keyframes loader{
+   0%,100%{
+       transform: translate(0);
+   }
+   25%{
+       transform: translate(170%, 0);
+   }
+   50%{
+       transform: translate(170%, 170%);
+   }
+   75%{
+       transform: translate(0, 170%);
+   }
+}
+
+.loader :nth-child(1){
+   animation-delay: -1.5s;
+   background:  #FDA543;
+
+}
+
+.loader :nth-child(2){
+   animation-delay: -1s;
+   background: #193B48;
+
+}
+
+
+.loader :nth-child(3){
+   animation-delay: -0.5s;
+   background: #19A68C;
+}
+
+
+.loader :nth-child(4){
+   background:  #F63D3A;
+
+}

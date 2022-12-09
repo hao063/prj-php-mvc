@@ -1,0 +1,98 @@
+.container-number-phone{
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.container-number-phone .form-change-numberphone{
+    width: 50%;
+    padding: 15px;
+    border: 1px solid rgba(131, 130, 130, 0.205);
+    border-radius: 3px;
+}
+.container-number-phone .form-change-numberphone .form-group{
+    position: relative;
+    width: 100%;
+    height: 60px;
+}
+.container-number-phone .form-change-numberphone input{
+    width: 100%;
+    padding: 7px 35px;
+    position: absolute;
+    outline: none;
+    border: 1px solid rgba(131, 130, 130, 0.349);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.container-number-phone .form-change-numberphone .label{
+    font-size: 14px;
+    color: rgb(70, 69, 69);
+}
+.container-number-phone .form-change-numberphone .svg-inline--fa{
+    position: absolute;
+    margin-left: 11px;
+    margin-top: 9px;
+    color: rgb(141, 139, 139);
+}
+
+
+.container-number-phone .form-change-numberphone .form-group:nth-child(3){
+    height: 40px;
+}
+.container-number-phone .form-change-numberphone .form-group button{
+    width: 100%;
+    padding: 7px 10px;
+    border: 1px solid #0b74e5;
+    color: #0b74e5;
+    background: #fff;
+    font-size: 14px;
+    border-radius: 3px;
+    transition: all 0.3 ease;
+}
+.container-number-phone .form-change-numberphone .form-group button:hover{
+    color: #fff;
+    background: #0b74e5;
+    transition: all 0.3 ease;
+}
+
+
+.container-number-phone .form-change-numberphone  div:nth-child(2) input::-webkit-outer-spin-button,
+.container-number-phone .form-change-numberphone  div:nth-child(2) input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.container-number-phone .form-change-numberphone a{
+    color: #0f3864;
+    font-size: 14px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .container-number-phone .form-change-numberphone input{
+        font-size: 13px;
+    }
+    .container-number-phone .form-change-numberphone .form-group button{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .container-number-phone .form-change-numberphone input{
+        font-size: 12px;
+    }
+    .container-number-phone .form-change-numberphone .form-group button{
+        font-size: 12px;
+    }
+}

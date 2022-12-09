@@ -1,0 +1,427 @@
+.contain-account{
+    width: 100%;
+    display: flex;
+    padding: 30px;
+}
+.navbar-infomation-account{
+    width: 25%;
+    padding: 20px;
+    margin: 20px;
+}
+
+.navbar-infomation-account .info-account{
+    display: flex;
+}
+
+.navbar-infomation-account .info-account>div:nth-child(1){
+    width: 50px;
+    height: 50px;
+}
+.navbar-infomation-account .info-account>div:nth-child(1) img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.navbar-infomation-account .info-account>div:nth-child(2) {
+   margin-top: 10px;
+   margin-left: 10px;
+} 
+.navbar-infomation-account .info-account>div:nth-child(2) p{
+    font-size: 14px;
+}
+.navbar-infomation-account .info-account>div:nth-child(2) h5{
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.navbar-infomation-account .link-sildebar{
+    width: 100%;
+    margin-top: 15px;
+}
+.navbar-infomation-account .link-sildebar ul{
+    display:flex;
+    flex-direction: column;
+}
+.navbar-infomation-account .link-sildebar ul li{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+
+}
+.navbar-infomation-account .link-sildebar ul li a{
+    color: rgba(58, 58, 58, 0.74);
+    font-size: 14px;
+}
+
+.navbar-infomation-account .link-sildebar ul li .svg-inline--fa{
+    font-size: 23px;
+    margin-right: 20px;
+}
+.navbar-infomation-account .link-sildebar ul li:hover{
+    background: rgba(58, 58, 58, 0.027);
+    transition: all 0.3s ease;
+}
+
+/*  */
+
+.selection-account{
+    width: 75%;
+    padding: 0px 20px;
+}
+.selection-account>.title{
+    font-size: 20px;
+    color: rgb(82, 81, 81);
+    margin-top: 45px;
+    font-weight: 200;
+}
+
+.selection-account .form-account{
+    width: 100%;
+    background: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    padding: 20px 0px;
+}
+
+.selection-account .form-account .personal_information{
+    width: 55%;
+}
+.selection-account .form-account .numberphone_email{
+    width: 45%;
+    border-left: 1px solid rgba(204, 204, 204, 0.521);
+}
+
+.selection-account .form-account .personal_information .title{
+    font-size: 16px;
+    color: rgb(82, 81, 81);
+    margin-left: 20px;
+}
+
+.selection-account .form-account .numberphone_email .title{
+    font-size: 16px;
+    margin-left: 20px;
+    color: rgb(82, 81, 81);
+}
+
+.selection-account .form-account .personal_information .group-form{
+    width: 100%;
+    padding: 20px;
+}
+
+.selection-account .form-account .personal_information .group-form .group-input{
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.selection-account .form-account .personal_information .group-form .group-input label{
+    width: 20%;
+    font-size: 14px;
+    color: rgb(82, 81, 81);
+}
+
+.selection-account .form-account .personal_information .group-form .group-input input{
+    outline: none;
+    border: 1px solid rgba(82, 81, 81, 0.178);
+    padding: 8px 15px;
+    border-radius: 5px;
+    width: 80%;
+}
+.selection-account .group-select{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.selection-account .group-select label{
+    font-size: 14px;
+    color: rgb(82, 81, 81);
+    width: 25%;
+}
+.selection-account .group-select>div{
+    width: 25%;
+}
+
+.selection-account .group-select>div select{
+    padding: 7px 12px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgba(82, 81, 81, 0.178);
+}
+
+
+
+.selection-account .group-checkradio {
+   display: flex;
+   align-items: center;
+   margin-top: 25px;
+}
+.selection-account .group-checkradio>label{
+    font-size: 14px;
+    color: rgb(82, 81, 81);
+    width: 25%;
+}
+.selection-account .group-checkradio>div{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.selection-account .group-checkradio>div label{
+    margin-left: 5px;
+    font-size: 14px;
+}
+.selection-account .group-checkradio>div input{
+    cursor: pointer;
+}
+.selection-account .btn-save-info-account{
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.selection-account .btn-save-info-account button{
+    padding: 8px 25px;
+    border: 1px solid #0b74e5;
+    color: #0b74e5;
+    font-size: 14px;
+    background: #fff;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+.selection-account .btn-save-info-account button:hover{
+    background: #0b74e5;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.selection-account  .update_phone_email{
+    width: 100%;
+    display: flex;
+    margin-top: 35px;
+}
+
+.selection-account  .update_phone_email>div:nth-child(1){
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.selection-account  .update_phone_email>div:nth-child(1) .svg-inline--fa{
+    font-size: 16px;
+    color: #171718a4;
+}
+
+.selection-account  .update_phone_email>div:nth-child(2){
+    width: 60%;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.selection-account  .update_phone_email>div:nth-child(2)>div:nth-child(1){
+    color: #000000;
+    font-size: 14px;
+    margin-left: 10px;
+  
+}
+.selection-account  .update_phone_email>div:nth-child(2)>div:nth-child(2){
+    color: #292a2ba4;
+    font-size: 14px;
+    margin-top: 2px;
+    margin-left: 11px;
+}
+.selection-account  .update_phone_email>div:nth-child(3){
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selection-account  .update_phone_email>div:nth-child(3) a{
+    color: #0b74e5;
+    border: 1px solid#0b74e5;
+    padding: 7px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.selection-account  .update_phone_email>div:nth-child(3) a:hover{
+    color: #fff;
+    background: #0b74e5;
+    transition: all 0.3s ease;
+}
+.selection-account  .numberphone_email>div:nth-child(4){
+    margin-top: 25px;
+}
+.selection-account  .update_phone_email>div:nth-child(1) .class_lock{
+    margin-top: -3px;
+    margin-left: 2px;
+}
+
+.selection-account .update_phone_email .change_pass_title{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    color: #000000;
+    font-size: 14px;
+}
+
+.validate-address{
+    color: red;
+    margin-left: 120px;
+    font-size: 12px;
+}
+
+
+.change_password_css{
+    margin-top: 40px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    
+    .navbar-infomation-account .link-sildebar ul li a span,.navbar-infomation-account .info-account>div:nth-child(2) p ,.navbar-infomation-account .info-account>div:nth-child(1)
+    ,.selection-account .form-account .personal_information .group-form .group-input label, .selection-account .group-select label, .selection-account .group-checkradio>label{
+       display: none;
+    }
+    .navbar-infomation-account .info-account>div:nth-child(2) h5{
+        font-size: 13px;
+    }
+    .navbar-infomation-account{
+        padding: 5px;
+    }
+    .navbar-infomation-account .info-account>div:nth-child(2) h5 {
+        font-size: 18px;
+        margin-top: 12px;
+    }
+    .selection-account .form-account .personal_information .group-form{
+        padding: 5px;
+    }
+    .selection-account .group-select>div select {
+        padding: 4px 3px;    
+    }
+    .selection-account .group-select, .selection-account .group-checkradio{
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .selection-account .btn-save-info-account button{
+        padding: 5px 15px;
+        font-size: 12px;
+    }
+    .selection-account .update_phone_email>div:nth-child(1){
+        display: none;
+    }
+    .selection-account .update_phone_email>div:nth-child(2)>div:nth-child(1){
+        font-size: 12px;
+    }
+
+    .selection-account .update_phone_email>div:nth-child(2)>div:nth-child(2){
+        font-size: 12px;
+    }
+    .selection-account .update_phone_email>div:nth-child(3){
+        width: 35%;
+    }
+    .selection-account .update_phone_email>div:nth-child(3) a{
+        font-size: 12px;
+        padding: 0;
+        border: 0;
+        margin-top: 5px;
+    }
+    .selection-account .update_phone_email .change_pass_title{
+        margin-top: 5px;
+        font-size: 12px;
+    }
+    .container-number-phone .form-change-numberphone input{
+        font-size: 12px;
+    }
+}
+  
+@media screen and (max-width: 850px) {
+    .selection-account .form-account{
+        flex-direction: column;
+    }
+    .selection-account .form-account .personal_information{
+        width: 100%;
+    }
+    .selection-account .form-account .numberphone_email{
+        width: 100%;
+    }
+    .selection-account .update_phone_email .change_pass_title{
+        font-size: 15px;
+        
+    }
+    .selection-account .update_phone_email{
+        margin-top: 10px;
+    }
+}
+
+
+
+.container-start-post{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-start-post .star-widget input {
+    display: none;
+}
+
+.container-start-post .star-widget label{
+    font-size: 35px;
+    color: #444;
+    padding: 10px;
+    float: right;
+}
+
+.container-start-post .star-widget input:not(:checked) ~ label:hover, 
+.container-start-post .star-widget input:not(:checked) ~ label:hover ~ label {
+    color: rgba(255, 221, 68, 0.774);
+}
+
+.container-start-post .star-widget input:checked ~ label{
+    color: rgba(255, 221, 68, 0.774);
+}
+
+.container-start-post .star-widget input#rate-5:checked ~ label {
+    color: #ffe004;
+}
+
+.container-start-post textarea {
+    resize: none;
+    width: 100%;
+    margin-top: 10px;
+    height: 100px;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+}
+.container-start-post .btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container-start-post button{
+    padding: 10px 50px;
+    background: #0471ff;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+.container-start-post .img input{
+    margin: 10px;
+}
+
+.validate-star{
+    color: red;
+    font-size: 13px;
+    margin-left: 10px;
+}

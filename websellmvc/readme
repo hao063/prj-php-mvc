@@ -1,0 +1,14 @@
+- Database:
+    + Tạo Database có tên: websellmvc
+    + file sql trong thư mục database
+- Products:
+    + Để thêm sản phẩm demo có thể lấy dữ liệu thông tin sản phẩm có sẵn từ thư mục products
+- Để và trang admin ghi theo đường dẫn : Đường dẫn localhost của bạn/?mod=admin
+- Các tài khoản đăng nhập
+    + Customer:
+        * Tk: tam333nz@gmail.com 
+          Mk: 123123a
+    + Admin:
+        * Tk: viphao063@gmail.com
+          Mk: admin12345
+- trong quá trình test project có thể sẽ sản ra lỗi css, khuyến khích nên chạy project bằng Terminal ( php -S localhost:8000 );

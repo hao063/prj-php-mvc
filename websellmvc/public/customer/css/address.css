@@ -1,0 +1,208 @@
+.add-new-address{
+    margin-top: 20px;
+    width: 100%;
+    height: 65px;
+    border: 1px dashed rgb(160, 157, 157);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    cursor: pointer;
+}
+.add-new-address>div{
+    display: flex;
+}
+.add-new-address>div>div {
+    margin: 5px;
+}
+.add-new-address>div>div:nth-child(1){
+    font-size: 20px;
+    color: gray;
+}
+.add-new-address>div>div:nth-child(2){
+    font-size: 15px;
+    color: rgb(19, 156, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.address-for-you{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.address-for-you .item-add-for-you{
+    margin-top: 10px;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 3px;
+}
+.address-for-you .item-add-for-you>div:nth-child(1){
+    display: flex;
+    align-items: center;
+}
+.address-for-you .item-add-for-you>div:nth-child(1) span:nth-child(1){
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.address-for-you .item-add-for-you>div:nth-child(1) span:nth-child(2){
+    color: green;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.address-for-you .item-add-for-you>div:nth-child(1) span:nth-child(3){
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 14px;
+    width: 60%;
+}
+.address-for-you .item-add-for-you>div:nth-child(1) span:nth-child(3) a{
+    color: rgb(0, 132, 255);
+}
+.address-for-you .item-add-for-you>.address-you {
+    margin-top: 10px;
+    display: flex;
+}
+.address-for-you .item-add-for-you>.address-you span:nth-child(1){
+    color: rgb(146, 143, 143);
+    font-size: 14px;
+}
+.address-for-you .item-add-for-you>.address-you span:nth-child(2){
+    color: rgb(29, 28, 28);
+    font-size: 14px;
+    margin-left: 10px;
+}
+.address-for-you .item-add-for-you>.name-more span:nth-child(1){
+    width: 40%;
+}
+.address-for-you .item-add-for-you>.name-more span:nth-child(2){
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.address-for-you .item-add-for-you>.name-more span:nth-child(2) a{
+    margin-right: 20px;
+    font-size: 14px;
+    color: rgb(0, 132, 255);
+}
+.address-for-you .item-add-for-you>.name-more span:nth-child(2) a:nth-child(2){
+    color: red;
+}
+
+.form-add-address{
+    margin-top: 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+.form-add-address .group-input, .form-add-address .group-select, .form-add-address .group-textbox, .form-add-address .group-radio, .form-add-address .group-checkbox{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.form-add-address .group-input label, .form-add-address .group-select label, .form-add-address .group-textbox label, .form-add-address .group-radio label{
+    width: 15%;
+    color: rgb(100, 98, 98);
+    font-size: 13px;
+}
+.form-add-address .group-input input, .form-add-address .group-select select, .form-add-address .group-textbox textarea{
+    width: 55%;
+    padding: 7px 10px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid rgba(100, 98, 98, 0.548);
+}
+
+.form-add-address .group-input input::-webkit-outer-spin-button,
+.form-add-address .group-input input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.form-add-address .group-input input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.form-add-address .group-textbox textarea{
+    height: 80px;
+}
+
+.form-add-address .group-radio>div{
+    width: 55%;
+    display: flex;
+    align-items: center;
+}
+.form-add-address .group-radio>div>div{
+    margin: 10px;
+    width: 50%;
+}
+
+.form-add-address .group-radio>div label{
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.form-add-address .group-checkbox>div:nth-child(1){
+    width: 15%;
+}
+.form-add-address .group-checkbox>div:nth-child(2){
+    width: 55%;
+    display: flex;
+    align-items: center;
+}
+.form-add-address .group-checkbox>div:nth-child(2) label{
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.form-add-address .group-input button{
+    padding: 9px 45px;
+    background: #fdd835;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .reponse-re{
+        display: none;
+    }
+    .form-add-address .group-input input, .form-add-address .group-select select, .form-add-address .group-textbox textarea{
+        width: 100%;
+    }
+
+    .address-for-you .item-add-for-you>div:nth-child(1) span:nth-child(1){
+        font-size: 12px;
+    }
+    .address-for-you .item-add-for-you>div:nth-child(1) span:nth-child(2){
+        font-size: 11px;
+    }
+    .address-for-you .item-add-for-you>.address-you span:nth-child(2){
+        font-size: 12px;
+    }
+    .address-for-you .item-add-for-you>div:nth-child(1) span:nth-child(3) a, .address-for-you .item-add-for-you>.name-more span:nth-child(2) a
+    , .address-for-you .item-add-for-you>.name-more span:nth-child(2) a:nth-child(2){
+        font-size: 13px;
+    }
+    .address-for-you .item-add-for-you{
+        height: 120px;
+    }
+    .address-for-you .item-add-for-you>.address-you span:nth-child(1){
+        font-size: 12px;
+    }
+    .add-new-address>div>div:nth-child(2){
+        font-size: 12px;
+    }
+    .add-new-address>div>div:nth-child(1){
+        font-size: 12px;
+    }
+}
+  
